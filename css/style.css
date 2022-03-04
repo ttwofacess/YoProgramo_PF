@@ -1,0 +1,74 @@
+/* Convencion de orden de trabajo
+1. Posicionamiento
+2. Modelo caja (Box model)
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+
+:root {
+    --warm-black: #201e1c;
+    --black: #282623;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    /*font-family: 'DM Sans', sans-serif;*/
+}
+
+body {
+    background-color: var(--black);
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 200px;
+    width: 100%;
+    background-color: var(--warm-black);
+    border: 1px dashed palevioletred;
+    /*font-size: 1.6rem;*/
+    
+}
+
+header .header-logo {
+    order: 1;
+    height: 120px;
+    width: 200px;
+    margin-bottom: 5px;
+    border: 1px blue dashed;
+    background-image: url('../assets/logos/logo-arg-prog_mod1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header h1 {
+    order: 2;
+    margin-bottom: 5px;
+    color: silver;
+}
+header nav {
+    display: flex;
+    order: 3;
+    color: orangered;
+}
+
+header nav .header-nav--ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    list-style: none;
+}
+
+header nav .header-nav--ul li {
+    margin-right: 10px;
+    border: 1px dashed yellow;
+}

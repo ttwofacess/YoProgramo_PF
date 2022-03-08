@@ -9,6 +9,9 @@
 :root {
     --warm-black: #201e1c;
     --black: #282623;
+    --bordes: #FFEB3B;
+    --login-green: #D4E157;
+    --my-white: #ECEFF1;
 }
 
 * {
@@ -23,6 +26,8 @@ html {
 }
 
 body {
+    display: flex;
+    justify-content: center;
     background-color: var(--black);
 }
 
@@ -32,11 +37,10 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     height: 200px;
-    width: 100%;
+    width: 90%;
     background-color: var(--warm-black);
-    border: 1px dashed palevioletred;
-    /*font-size: 1.6rem;*/
-    
+    /*font-size: 1.6rem;
+    border: 1px dashed var(--bordes);*/
 }
 
 header .header-logo {
@@ -44,31 +48,54 @@ header .header-logo {
     height: 120px;
     width: 200px;
     margin-bottom: 5px;
-    border: 1px blue dashed;
     background-image: url('../assets/logos/logo-arg-prog_mod1.png');
     background-repeat: no-repeat;
     background-position: center;
+    /*border: 1px dashed var(--bordes);*/
 }
 
 header h1 {
     order: 2;
     margin-bottom: 5px;
-    color: silver;
+    color: var(--my-white);
 }
 header nav {
+    width: 90%;
+    justify-content: center;
+    margin-top: 5px;
     display: flex;
     order: 3;
-    color: orangered;
+    /*border: 1px dashed var(--bordes);*/
 }
 
 header nav .header-nav--ul {
+    width: 90%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     font-size: 24px;
     list-style: none;
+    /*border: 1px dashed var(--bordes);*/
 }
 
 header nav .header-nav--ul li {
+    width: 32px;
+    height: 32px;
     margin-right: 10px;
-    border: 1px dashed yellow;
+    border-radius: 3px;
+    background-color: var(--my-white);
+    /*color: transparent;
+    border: 1px dashed var(--bordes);*/
+}
+
+.header-nav--ul li:nth-child(1) {
+    /*background-image: url('../assets/icons/linkedin_32.png');*/
+}
+
+.header-nav--ul li:nth-child(2) {
+    /*background-image: url('../assets/icons/github_logo_icon_32.png');*/
+}
+
+.header-nav--ul li:nth-child(3) {
+    /*background-image: url('../assets/icons/login_32.png');*/
 }

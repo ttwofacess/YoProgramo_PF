@@ -96,7 +96,7 @@ header nav .header-nav--ul li {
 }
 
 .banner {
-    height: 150px;
+    /*height: 150px;
     min-width: 320px;
     max-width: 1024px;
     width: 90%;
@@ -105,7 +105,7 @@ header nav .header-nav--ul li {
     background-position: center;
     background-size: cover;
     border: 1px solid black;
-    opacity: 0.5;
+    opacity: 0.5;*/
 }
 
 

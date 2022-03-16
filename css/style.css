@@ -100,12 +100,13 @@ header nav .header-nav--ul li {
     min-width: 320px;
     max-width: 1024px;
     width: 90%;
-    background-image: url('../assets/images/banner_1280.jpg');
+    /*background-image: url('../assets/images/banner_1280.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
+    background-image: linear-gradient(45deg, green, yellow);
     border: 1px solid black;
-    opacity: 0.5;
+    /*opacity: 0.5;*/
 }
 
 

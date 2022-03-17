@@ -95,6 +95,31 @@ header nav .header-nav--ul li {
     height: 32px;
 }
 
+.about {
+    height: 300px;
+    min-width: 320px;
+    max-width: 1024px;
+    width: 90%;
+    background-color: var(--warm-black);
+    color: var(--my-white);
+    border: 1px solid black;
+}
+
+.foto {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: -40px;
+    border-radius: 50%;
+    border: 1px dashed red;
+}
+
+.about p {
+    margin-left: 10px;
+    font-size: 1.4rem;
+}
+
 .banner {
     height: 150px;
     min-width: 320px;

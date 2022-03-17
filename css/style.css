@@ -95,19 +95,6 @@ header nav .header-nav--ul li {
     height: 32px;
 }
 
-.banner {
-    /*height: 150px;
-    min-width: 320px;
-    max-width: 1024px;
-    width: 90%;
-    background-image: url('../assets/images/banner_1280.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 1px solid black;
-    opacity: 0.5;*/
-}
-
 
 
 @media screen and (min-width: 768px) {
